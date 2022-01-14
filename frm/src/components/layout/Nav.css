@@ -1,0 +1,23 @@
+
+.Nav{
+    background-color: rgb(133, 172, 231);
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.Nav > ul {
+    display: flex;
+    font-size: 1.5rem;
+    
+}
+
+.Nav > ul > li{
+    list-style: none;
+    
+    margin-left: 18px;
+}
+
+.Nav > ul > li > a{
+    text-decoration: none;
+}
