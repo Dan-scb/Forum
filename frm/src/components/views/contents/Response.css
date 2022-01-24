@@ -1,0 +1,23 @@
+.Response{
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    height: 20vh;
+    
+}
+
+.Response > textarea{
+    font-size: 1.2em;
+    border-radius: 8px;
+}
+
+.Response > button{
+    width: 35%;
+    height: 45%;
+    align-self: center;
+    margin-top: 25px;
+    border-radius: 500px;
+    background-color: rgb(27, 209, 27);
+
+}

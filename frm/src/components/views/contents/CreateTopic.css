@@ -1,19 +1,57 @@
 
+.formTopic{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 .form{
     display: flex;
     flex-direction: column;
     align-items: center;
     height: 40vh;
     width: 80vw;
+    margin-left: 8%;
 }
 .form > input{
     height: 25%;
     width: 100%;
     margin-bottom: 5px;
+    border-radius: 4px;
+    font-size: 1.5rem;
 }
 
 .form > textarea{
     height: 75%;
     width: 100%;
+    font-size: 1.1rem;
+    border-radius: 4px;
     margin-bottom: 20px;
+}
+
+.form > label{
+    font-size: 1.8rem;
+    margin: 10px 0;
+}
+
+.form > select{
+    width: 20vw;
+    height: 9vh;
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.form > button{
+    background-color: rgb(27, 209, 27);
+    height: 9vh;
+    border-radius: 500px;
+}
+
+@media(max-width: 600px){
+    .form > button{
+        width: 100%;
+        font-size: 0.8rem;
+    }
 }

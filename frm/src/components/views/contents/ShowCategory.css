@@ -1,4 +1,20 @@
 
-.ShowCategory{
-    background-color: blueviolet;
+.ShowCatg{
+    background-color: rgb(112, 108, 116);
+    width: 40vw;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    border-radius: 7px;
+    
+}
+.ShowCatg  h2{
+    color: black;
+    
+}
+
+.ShowCatg:hover{
+    background-color: rgb(112, 188, 116);
 }

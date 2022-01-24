@@ -1,0 +1,31 @@
+
+
+.Top{
+    display: flex;
+    background-color: rgb(238, 238, 238);
+    border-top: solid 1px black;
+    align-items: center;
+    justify-content: center;
+    
+}
+.Top > a {
+    color: black;
+    width: 48%;
+}
+
+.cardTop{
+    width: 60vw;
+    margin: 20px 0;
+    border: 4px solid gainsboro;
+    background-color: rgb(60, 82, 92);
+    border-radius: 8px;
+    align-self: center;
+    
+}
+
+.cardTop > strong{
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+    color: #fff;
+}
+

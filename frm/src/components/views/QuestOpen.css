@@ -1,0 +1,48 @@
+.Align{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.QuestOpen{
+    background-color: #fff;
+    width: 80vw;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    font-size: 1.5rem;
+    border-radius: 8px;
+    border: solid 1px rgb(129, 122, 122);
+}
+
+.QuestOpen > span {
+    width: 100%;
+    height: 28%;
+    word-wrap: break-word;
+    border-bottom: solid 1px rgb(129, 122, 122);
+    margin-bottom: 14px;
+}
+
+
+
+.response  {
+    width: 80vw;
+    height: 15vh;
+    border: solid 1px rgb(211, 184, 184);
+    border-radius: 8px;
+    word-wrap: break-word;
+    margin: 15px 0px;
+}
+
+.response > p {
+    margin-left: 10px;
+    font-size: 1.1rem;
+    word-wrap: break-word;
+}
+
+.Param{
+    display: none;
+}

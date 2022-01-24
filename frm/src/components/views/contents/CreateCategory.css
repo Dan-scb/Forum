@@ -1,0 +1,28 @@
+
+.CreateCategory{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   height: 30vh;
+    margin-top: 15px;
+}
+
+.CreateCategory > input {
+    height: 20%;
+    width: 40%;
+    font-size: 1.4rem;
+    border-radius: 8px;
+}
+
+.CreateCategory > button{
+    margin-top: 15px;
+    width: 20%;
+    height: 4vh;
+    border-radius: 5000px;
+    background-color: rgb(27, 209, 27);
+}
+
+.CreateCategory > label{
+    font-size: 1.5rem;
+    margin: 10px 0;
+}

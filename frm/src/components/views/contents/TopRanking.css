@@ -1,0 +1,12 @@
+
+.TopRanking{
+    width: 70%;
+    margin: 15px 20px;
+    border: solid 1px rgb(212, 206, 206);
+    border-radius: 4px;
+    
+}
+
+.TopRanking:hover{
+    border: solid 2px rgb(150, 134, 134);
+}

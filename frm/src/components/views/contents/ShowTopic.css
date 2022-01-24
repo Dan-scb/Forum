@@ -1,18 +1,27 @@
 
 .ShowTopic{
-    background-color: cadetblue;
-    width: 100vw;
+    background-color: rgb(221, 218, 224);
+    width: 70vw;
     height: 10vh;
     display: flex;
     align-items: center;
     margin-top: 10px;
+    border-radius: 7px;
+    border: solid 1px rgb(150, 134, 134);
 }
 
 .ShowTopic > h3 {
     color: black;
     width: 70%;
+    margin-left: 5px;
+    font-size: 1.3rem;
 }
 .ShowTopic span{
     display: flex;
     flex-direction: column;
+    color: black;
+}
+
+.ShowTopic:hover{
+    background-color: rgb(112, 188, 116);
 }

@@ -1,0 +1,25 @@
+
+.regisCat{
+    margin-top: 20px;
+    width: 16vw;
+    height: 8vh;
+    word-wrap: break-word;
+    border-radius: 500px;
+    background-color: rgb(27, 209, 27);
+    font-size: 1.1rem;
+    
+}
+
+.Categorys{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media(max-width: 600px){
+    .regisCat{
+        width: 100%;
+        font-size: 0.6rem;
+        word-wrap: break-word;
+    }
+}
