@@ -1,7 +1,6 @@
 import axios from "axios";
-import React, { Component, useEffect, useState } from "react";
-import { useParams } from "react-router-dom";
-import './QuestOpen.css'
+import React, { Component} from "react";
+import './TopicOpen.css'
 
 import Response from "./contents/Response";
   

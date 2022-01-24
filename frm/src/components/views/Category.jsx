@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import axios from 'axios'
 
 import ShowCategory from "./contents/ShowCategory";
-import './Quest.css'
+import './Category.css'
 
 export default class Category  extends Component {
 

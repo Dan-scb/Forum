@@ -1,14 +1,14 @@
 import React from "react";
 import {useParams } from "react-router-dom";
 
-import QuestOpen from "../QuestOpen.jsx";
+import TopicOpen from "../TopicOpen.jsx";
 
 export default props => {
     const {id} = useParams()
 
     
         return <div>  
-    <QuestOpen identity={id} />
+    <TopicOpen identity={id} />
     </div>
     
     
